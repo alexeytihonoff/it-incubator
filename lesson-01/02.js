@@ -4,6 +4,6 @@
 //  «[вставь сюда полученное число] :Это четное число» или «[вставь сюда полученное число] :Это нечетное число».
 //  С каждой перезагрузкой страницы у тебя будет новое число.
 
-let randomNumber = Math.floor(Math.random() * 100);
-let result = (randomNumber % 2 === 0) ? `${randomNumber} :Это четное число` : `${randomNumber} :Это нечетное число`
+let number1 = Math.floor(Math.random() * 100);
+let result = (number1 % 2 === 0) ? `${number1} :Это четное число` : `${number1} :Это нечетное число`
 console.log(result);
